@@ -1,11 +1,11 @@
 import React from 'react'
-import loginSvg from '../assets/Privacy policy-rafiki.png'
+import loginPhoto from '../assets/Privacy policy-rafiki.png'
 
 function Login() {
   return (
     <main>
         <div className="left container">
-            <img className="image" src={loginSvg} alt="" />
+            <img className="image" src={loginPhoto} alt="" />
         </div>
         <div className="right container">
             <form id="login-form" action="#">
